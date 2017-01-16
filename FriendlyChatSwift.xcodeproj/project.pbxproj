@@ -18,6 +18,7 @@
 		2CA807BE1B217B21009AD7F2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA807BD1B217B21009AD7F2 /* AppState.swift */; };
 		5F5A537E1ADE67D500F81DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A537D1ADE67D500F81DF0 /* AppDelegate.swift */; };
 		5F5A53801ADE67D500F81DF0 /* FCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A537F1ADE67D500F81DF0 /* FCViewController.swift */; };
+		91AC5FB41E2D33AD009F67D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91AC5FB31E2D33AD009F67D2 /* GoogleService-Info.plist */; };
 		C24BA6A82651B9117E05AEF4 /* Pods_FriendlyChatSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FDA4881031E1E6E924C074B /* Pods_FriendlyChatSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		5F5A537D1ADE67D500F81DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F5A537F1ADE67D500F81DF0 /* FCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCViewController.swift; sourceTree = "<group>"; };
 		84A66AF0BFA76C1CFAA68D67 /* Pods-FriendlyChatSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChatSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendlyChatSwift/Pods-FriendlyChatSwift.release.xcconfig"; sourceTree = "<group>"; };
+		91AC5FB31E2D33AD009F67D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D655C85F025FBCFF99A8EF51 /* Pods-FriendlyChatSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyChatSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FriendlyChatSwift/Pods-FriendlyChatSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 		5F5A53431ADE670C00F81DF0 = {
 			isa = PBXGroup;
 			children = (
+				91AC5FB31E2D33AD009F67D2 /* GoogleService-Info.plist */,
 				10AF4CAD1DD236DE0096D192 /* shared */,
 				5F5A537A1ADE67D500F81DF0 /* FriendlyChatSwift */,
 				5F5A534D1ADE670C00F81DF0 /* Products */,
@@ -167,7 +170,7 @@
 				TargetAttributes = {
 					5F5A53781ADE67D500F81DF0 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = EQHXZ8M8AV;
+						DevelopmentTeam = 7C247JK57L;
 						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -205,6 +208,7 @@
 				10AF4CB51DD236DE0096D192 /* Images.xcassets in Resources */,
 				107960731C612531003DB6CC /* Main.storyboard in Resources */,
 				10AF4CB31DD236DE0096D192 /* logo1024.png in Resources */,
+				91AC5FB41E2D33AD009F67D2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,11 +389,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7C247JK57L;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/FriendlyChatSwift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.codelab.FriendlyChatSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.mobileacademy.codelab03;
 				PRODUCT_NAME = FriendlyChatSwift;
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
@@ -405,11 +410,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7C247JK57L;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/FriendlyChatSwift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.google.firebase.codelab.FriendlyChatSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = ro.mobileacademy.codelab03;
 				PRODUCT_NAME = FriendlyChatSwift;
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = YES;

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>57472379882-6uohcuj8if2o4pam0lnihscj3d30tkvi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.57472379882-6uohcuj8if2o4pam0lnihscj3d30tkvi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDa2ccUUvCJ8pieHWV0BEB9g5twiLMNf8k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>57472379882</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ro.mobileacademy.codelab03</string>
+	<key>PROJECT_ID</key>
+	<string>codelab003</string>
+	<key>STORAGE_BUCKET</key>
+	<string>codelab003.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:57472379882:ios:61433309234bc8d3</string>
+	<key>DATABASE_URL</key>
+	<string>https://codelab003.firebaseio.com</string>
+</dict>
+</plist>
